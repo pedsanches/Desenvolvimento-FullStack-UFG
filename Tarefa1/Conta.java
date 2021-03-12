@@ -1,7 +1,6 @@
 package Tarefa1;
 
 public class Conta {
-    //private static int contaCounter = 1;
     protected Pessoa Cliente;
     protected int nrConta;
     protected double Saldo;
@@ -10,9 +9,6 @@ public class Conta {
         this.Cliente = cliente;
         this.nrConta = nrconta;
         this.Saldo = saldo;
-        /*this.nrConta = Conta.contaCounter;
-        Conta.contaCounter++;*/
-        
     }
 
     public Pessoa getCliente() {
@@ -36,7 +32,8 @@ public class Conta {
             Debitar(dinheiro);
             System.out.println("Saque realizado com sucesso!");
         }
-        System.out.println("Saldo insuficiente para sacar essa quantia!");
+            else
+                System.out.println("Saldo insuficiente para sacar essa quantia!");
     }
 
     private void Debitar(double dinheiro) {
