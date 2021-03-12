@@ -9,19 +9,19 @@ import java.util.List;
 public class Main {
 	public static void main(String[] args) {
 
-		Calendar idadeNeymar = Calendar.getInstance();
-		idadeNeymar.set(1992, 2, 5);
+	Calendar idadeNeymar = Calendar.getInstance();
+	idadeNeymar.set(1992, 2, 5);
 
         Calendar idadeMessi = Calendar.getInstance();
-		idadeMessi.set(1987, 6, 24);
+	idadeMessi.set(1987, 6, 24);
 
-		PessoaFisica NeymarTheBest = new PessoaFisica(1, "Neymar", "Paris", 12345, idadeNeymar, "Masculino");
+	PessoaFisica NeymarTheBest = new PessoaFisica(1, "Neymar", "Paris", 12345, idadeNeymar, "Masculino");
         PessoaFisica MessiTheGoat = new PessoaFisica( 2, "Messi", "Barcelona", 54321, idadeMessi, "Masculino");
 
         System.out.println(NeymarTheBest.getIdade());
         System.out.println(MessiTheGoat.getIdade());
 
-		PessoaJuridica KingsmanTheMovie = new PessoaJuridica(1, "Kingsman", "Area51", 10101, "Salvar o mundo");
+	PessoaJuridica KingsmanTheMovie = new PessoaJuridica(1, "Kingsman", "Area51", 10101, "Salvar o mundo");
         PessoaJuridica KimetsuTheAnime = new PessoaJuridica(2, "Kimetsu", "Japão", 01010, "Assistir anime");
 
         ContaEspecial ceNeymar = new ContaEspecial(NeymarTheBest, 1, 1000.0, 500.0);
@@ -29,7 +29,7 @@ public class Main {
         ContaEspecial ceKingsman = new ContaEspecial(KingsmanTheMovie, 3, 100000.0, 10000.0);
         ContaPoupanca cpKimetsu = new ContaPoupanca(KimetsuTheAnime, 4, 1500.0, 0.03);
 
-		System.out.println("----------------------------------------------------");
+	System.out.println("----------------------------------------------------");
         System.out.println(ceNeymar.getSaldo());
         ceNeymar.Sacar(100.0);
         System.out.println("----------------------------------------------------");
