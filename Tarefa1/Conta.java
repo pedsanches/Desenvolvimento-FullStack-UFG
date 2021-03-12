@@ -1,4 +1,4 @@
-package Banco;
+package Tarefa1;
 
 public class Conta {
     //private static int contaCounter = 1;
