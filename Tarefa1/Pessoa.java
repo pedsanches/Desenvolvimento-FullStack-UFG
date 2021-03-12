@@ -1,4 +1,4 @@
-package Banco;
+package Tarefa1;
 
 public abstract class Pessoa {
     //private static int IdCounter = 0;
