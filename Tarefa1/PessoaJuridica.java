@@ -1,4 +1,4 @@
-package Banco;
+package Tarefa1;
 
 public class PessoaJuridica extends Pessoa {
     protected int Cnpj;
