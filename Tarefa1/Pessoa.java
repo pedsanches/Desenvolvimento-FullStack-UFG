@@ -1,7 +1,6 @@
 package Tarefa1;
 
 public abstract class Pessoa {
-    //private static int IdCounter = 0;
 	protected int Id;
 	protected String Nome;
 	protected String Endereco;
@@ -10,8 +9,6 @@ public abstract class Pessoa {
         this.Id = id;
         this.Nome = nome;
         this.Endereco = endereco;
-        //this.Id = Pessoa.IdCounter;
-        //Pessoa.IdCounter++;
     }
 
     public int getId() {
@@ -37,8 +34,4 @@ public abstract class Pessoa {
     public void setEndereco(String endereco) {
         this.Endereco = endereco;
     }
-
-    /*public void printId() {
-        System.out.println(Pessoa.idCounter);
-    }*/
 }
