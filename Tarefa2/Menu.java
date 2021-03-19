@@ -14,7 +14,7 @@ public class Menu {
 
 	public void menuPrincipal(Scanner sc) {
 
-		Conta conta;
+	Conta conta;
         Integer escolha;
 
 		do {
